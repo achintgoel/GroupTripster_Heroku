@@ -1,0 +1,31 @@
+{% load trip_extras %}
+<div id="activity_content" class="activity-carousel carousel slide">
+	<div class="carousel-inner">
+		<div class="item active">
+			{% for date in dates %}
+				<div class="alert alert-info">
+					<strong>Day {{ forloop.counter}}: {{ date }}</strong>
+					<div class="pull-right">
+						<a data-toggle="collapse" href="#my{{date|date:"Y-m-d"}}Activities"><small>Show   <span class="glyphicon glyphicon-chevron-down"></span></small></a>
+					</div>
+				</div>
+				<div id="my{{ date|date:"Y-m-d" }}Activities" class="collapse in">
+					{% if date in activities %}
+						{% for activity in activities|lookup:date %}
+							{% include "trip/activity_summary2.html" with user=user user_profile=user_profile user_participants_social_pf=user_participants_social_pf activity=activity activity_category_icon=activity_category_icons|lookup:activity.category%}
+						{% empty %}
+							<div id="no{{ date|date:"Y-m-d" }}Activities" class="text-center">
+								<strong>No Activities for this day</strong>
+							</div>
+							<br>
+						{% endfor %}
+					{% endif %}
+				</div>
+			{% endfor %}
+	    </div>
+	</div>
+</div>
+
+
+
+	

@@ -1,0 +1,73 @@
+body {
+		padding-top: 70px;
+		background-color:#f7f7f7;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+  }
+}
+.trip-contents {
+	background-color:#FFFFFF;
+}
+.trip-header {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.trip-header .trip-details {
+	position: absolute;
+	left: 30px;
+	top: 40px;
+	color:#FFFFFF;
+}
+
+.trip-header .trip-participants {
+	position: absolute;
+	left: 30px;
+	bottom: -20px;
+}
+.trip-header > img {
+	width:100%;
+	height: 300px;
+}
+#map-canvas img{ max-width: none;}
+.table-scrollable{overflow:auto;}
+.image-category {margin-left: 25px;}
+.finder-suggestions-table tr td {
+  max-width: 106.5px;
+  text-align:center;
+  padding:15.75px;
+}
+.icons {
+	padding-right:10px;
+}
+.selected { font-weight: bold }
+.activity-photo-selected { 
+	border-style:solid;
+	border-color:#006699; 
+}
+
+#id_activity_photo a:hover {text-decoration:none;}
+
+.finder-suggestions-table tr td a:hover {text-decoration:none;}
+.pac-container {
+  z-index: 1040 !important;
+}
+
+.left-content {
+	border-right-style:solid;
+	border-width:1px;
+	border-color:#DCDCDC; 
+	overflow:scroll;
+}
+
+
+#finder-hotel-name {
+	width: 310px;
+}
+
+.btn-nav-group {
+	padding-bottom:20px;
+}
