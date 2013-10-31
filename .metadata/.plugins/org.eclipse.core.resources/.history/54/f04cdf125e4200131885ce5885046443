@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+{% load trip_extras %}
+	<head>
+	    <title>{% block title %}My amazing site{% endblock %}</title>
+	    <link href="{% static "trip/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet" media="screen">
+	    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	    <link href="{% static "trip/trip.css" %}" rel="stylesheet" media="screen">
+	</head>
+
+	
+	<body>
+	        {% block navbar %}
+	        	<div class="navbar navbar-inverse navbar-fixed-top">
+    					<a class="navbar-brand" href="#">GroupTrip</a>
+    					<ul class="nav navbar-nav">
+     						 <li class="active"><a href="{% url 'accounts:profile'%}">Home</a></li>
+    					</ul>
+    					<ul class="nav navbar-nav navbar-right">
+    						 <li class="dropdown">
+    						 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									{{user_profile.name}} <b class="caret"></b>
+    						 	</a>
+    						 	<ul class="dropdown-menu">
+						          <li><a href="{% url 'accounts:logout_then_login'%}">Logout</a></li>
+						        </ul>
+    						 </li>
+    					</ul>
+				</div>
+	        {% endblock %}
+	        
+	        {% block content %}
+	        {% endblock %}
+	        <script src="http://code.jquery.com/jquery.js"></script>
+	       	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+			<script type="text/javascript" src="{% static "trip/bootstrap/js/bootstrap.min.js" %}"></script>
+			<script type="text/javascript" src="{% static "jquery.raty.min.js" %}"></script>
+			<script type="text/javascript" src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.min.js"></script>
+			<script type="text/javascript" src="{% static "trip/scripts.js" %}"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBABrAliBhsGpLAQ6vZ675rShv7yyr_k2U&sensor=false&libraries=places"></script>
+			<script type="text/javascript" src="{% static "invite/scripts.js" %}"></script>			
+	</body>
+</html>
