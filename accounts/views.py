@@ -10,6 +10,7 @@ from trip.forms import CreateTripForm
 from trip.models import Trip
 from invite.models import TripInvitations
 from social_auth.db.django_models import UserSocialAuth
+from django.http import HttpResponse
 import facebook
 # Create your views here.
 

@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, url
 from accounts import views
-
+from django.contrib.auth.views import login
 urlpatterns = patterns('',
     url(r'^profile/$', views.profile, name='profile'),
     url(r'^login/$', 'django.contrib.auth.views.login', name='login'),

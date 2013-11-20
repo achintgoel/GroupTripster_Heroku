@@ -1,10 +1,12 @@
 from django.conf.urls import patterns, include, url
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
+from django.views.generic import RedirectView
 admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'', include('social_auth.urls')),
+    url(r'^$', RedirectView.as_view(url='/accounts/profile')),
     url(r'^accounts/', include('accounts.urls', namespace="accounts")),
     url(r'^trip/', include('trip.urls', namespace="trip")),
     url(r'^invite/', include('invite.urls', namespace="invite")),

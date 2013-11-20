@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46437a4b-20b8-4aeb-b250-7a545927e020" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/.pydevproject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/accounts/members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/accounts/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/accounts/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/registration/create_user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/registration/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/templates/registration/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/accounts/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/citygridapi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/expedia_api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_accommodations_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_activities_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_activities_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_form2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_hotel_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/templates/finder/finder_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/finder/yelp_api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/googlemaps/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/googlemaps/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/googlemaps/templates/googlemaps/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/googlemaps/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/googlemaps/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/grouptrip/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/grouptrip/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/grouptrip/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/grouptrip/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/static/invite/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/templates/invite/invite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/templates/invite/trip_invitation_summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/invite/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/templates/tasks/task_details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/templates/tasks/task_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/templates/tasks/task_summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/templates/tasks/tasks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/tasks/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/DowntownSF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/GoldenGate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/bigcity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/citysquare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/country.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/footprint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/historicalquarter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/japanese-lantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/jewishquarter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/lighthouse-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/notvisited.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/olympicsite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/panoramicview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/petroglyphs-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/sight-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/smallcity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/star-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/world.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/map_icons/worldheritagesite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/no_image_available.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/css/pygments.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cancel-custom-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cancel-custom-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cancel-off-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cancel-on-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cookie-half.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cookie-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/cookie-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/star-half-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/star-off-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/img/star-on-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/demo/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/img/cancel-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/img/cancel-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/img/star-half.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/img/star-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/img/star-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/jquery.raty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/lib/jquery.raty.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/lib/jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/lib/jasmine-jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/lib/jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/lib/jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/raty-2.5.2/spec/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/star-half.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/star-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/star-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/static/trip/trip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/activities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/activity_summary2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/comment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/create_activity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/create_trip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/discussion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/itinerary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/itinerary2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/review_summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/reviews.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/trip_profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templates/trip/trip_summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/templatetags/trip_extras.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/registration/login.html" afterPath="$PROJECT_DIR$/accounts/templates/registration/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grouptrip/settings.py" afterPath="$PROJECT_DIR$/grouptrip/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/static/trip/trip.css" afterPath="$PROJECT_DIR$/trip/static/trip/trip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/urls.py" afterPath="$PROJECT_DIR$/accounts/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grouptrip/urls.py" afterPath="$PROJECT_DIR$/grouptrip/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
+    </list>
+    <ignored path="GroupTripster_Final.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GroupTripster_Final" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="149" column="0" selection-start="5118" selection-end="5118" vertical-scroll-proportion="-7.0384617" vertical-offset="2052" max-vertical-offset="2985">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grouptrip/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.089955024" vertical-offset="0" max-vertical-offset="667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="26" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-3.94" vertical-offset="133" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="210" column="39" selection-start="10483" selection-end="10483" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trip_profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="19" selection-start="337" selection-end="344" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="900">
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/trip/urls.py" />
+        <option value="$PROJECT_DIR$/trip/static/trip/trip.css" />
+        <option value="$PROJECT_DIR$/accounts/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/trip/views.py" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/grouptrip/settings.py" />
+        <option value="$PROJECT_DIR$/grouptrip/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-37" />
+    <option name="y" value="466" />
+    <option name="width" value="1400" />
+    <option name="height" value="813" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouptrip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GroupTripster_Final" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46437a4b-20b8-4aeb-b250-7a545927e020" name="Default" comment="" />
+      <created>1383253799443</created>
+      <updated>1383253799443</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-37" y="466" width="1400" height="813" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grouptrip/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.62952244" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_static.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="430" selection-end="441" vertical-scroll-proportion="0.23878437" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="35" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.3227207" vertical-offset="437" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="33" selection-end="55" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="337" selection-end="344" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2826087" vertical-offset="195" max-vertical-offset="4080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_activity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.375" vertical-offset="105" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="39" selection-start="10483" selection-end="10483" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-3.94" vertical-offset="133" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="900">
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="0" selection-start="5118" selection-end="5118" vertical-scroll-proportion="-7.0384617" vertical-offset="2052" max-vertical-offset="2985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grouptrip/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.089955024" vertical-offset="0" max-vertical-offset="667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
