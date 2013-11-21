@@ -6,6 +6,7 @@ var autocomplete;
 var autocomplete2;
 var autocomplete3;
 var autocomplete4;
+var autocomplete5;
 // using jQuery
 function getCookie(name) {
     var cookieValue = null;
@@ -49,10 +50,10 @@ function onCreateNewTrip(){
 function onSaveTrip(){
 	// build an object of review data to submit
 	var trip = { 
-		name: jQuery("#id_name").val(),
-		start_date: jQuery("#id_start_date").val(),
-		end_date: jQuery("#id_end_date").val(),
-		location: jQuery("#id_location").val() };
+		name: jQuery("#id_trip_name").val(),
+		destination: jQuery("#id_trip_destination").val(),
+		start_date: jQuery("#id_trip_start_date").val(),
+		end_date: jQuery("#id_trip_end_date").val()};
 	// make request, process response
 	jQuery.post("/trip/save/", trip,
 		function(response){
@@ -174,6 +175,7 @@ function initialize() {
 	  
 	  var input5 = /** @type {HTMLInputElement} */(document.getElementById('hotel_location'));
 	  autocomplete4 = new google.maps.places.Autocomplete(input5, options);
+
 	  
 	  var markers = [];
 	  
@@ -601,13 +603,26 @@ function tasksInit() {
 
 function prepareDocument() {
 	jQuery("#createTripButton").click(onCreateNewTrip);
-	jQuery("#id_start_date").datepicker({
+	jQuery("#id_trip_start_date").datepicker({
       showButtonPanel: true
     });
-	jQuery("#id_end_date").datepicker({
+	jQuery("#id_trip_end_date").datepicker({
       showButtonPanel: true
     });
 	jQuery("#saveTripButton").click(onSaveTrip);
+	var options = {
+		  types: ['geocode']
+		  };
+
+    //TODO: THIS IS A HACK...NEED TO SEPARATE HOME PAGE INITIALIZATION STUFF FROM TRIP PROFILE INITIALIZATION STUFF
+	if(document.getElementById('id_trip_destination') != null) {
+	    var input6 = /** @type {HTMLInputElement} */(document.getElementById('id_trip_destination'));
+	    autocomplete5 = new google.maps.places.Autocomplete(input6, options);
+	}
+
+
+
+
 	jQuery("#add_activity_link").click(onCreateNewActivity);
 	
 	

@@ -7,6 +7,7 @@ class Trip(models.Model):
     slug = models.SlugField(max_length=255, unique=True,
                             help_text='Unique value for trip page URL, created automatically from name.')
     created_by = models.ForeignKey(settings.AUTH_USER_MODEL, related_name="created_by")
+    destination = models.CharField(max_length=100)
     start_date = models.DateField("Start Date")
     end_date = models.DateField("End Date")
     

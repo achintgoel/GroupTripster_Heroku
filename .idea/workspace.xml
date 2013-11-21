@@ -163,12 +163,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/tests.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/urls.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/registration/login.html" afterPath="$PROJECT_DIR$/accounts/templates/registration/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/base.html" afterPath="$PROJECT_DIR$/trip/templates/trip/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/create_trip.html" afterPath="$PROJECT_DIR$/trip/templates/trip/create_trip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/models.py" afterPath="$PROJECT_DIR$/trip/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/static/trip/scripts.js" afterPath="$PROJECT_DIR$/trip/static/trip/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grouptrip/settings.py" afterPath="$PROJECT_DIR$/grouptrip/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/static/trip/trip.css" afterPath="$PROJECT_DIR$/trip/static/trip/trip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/urls.py" afterPath="$PROJECT_DIR$/accounts/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grouptrip/urls.py" afterPath="$PROJECT_DIR$/grouptrip/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" afterPath="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroupTripster_Final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -194,43 +195,25 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="0" selection-start="5118" selection-end="5118" vertical-scroll-proportion="-7.0384617" vertical-offset="2052" max-vertical-offset="2985">
+            <state line="11" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2985">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grouptrip/urls.py">
+      <file leaf-file-name="create_trip.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_trip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.089955024" vertical-offset="0" max-vertical-offset="667">
+            <state line="19" column="18" selection-start="887" selection-end="887" vertical-scroll-proportion="-10.0" vertical-offset="45" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login.html">
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trip/static/trip/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-3.94" vertical-offset="133" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="39" selection-start="10483" selection-end="10483" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3390">
+            <state line="282" column="33" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.68330735" vertical-offset="3792" max-vertical-offset="11295">
               <folding />
             </state>
           </provider>
@@ -239,30 +222,26 @@
       <file leaf-file-name="trip_profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="337" selection-end="344" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="1425">
+            <state line="9" column="27" selection-start="211" selection-end="211" vertical-scroll-proportion="-2.7" vertical-offset="0" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state line="13" column="79" selection-start="539" selection-end="539" vertical-scroll-proportion="-5.0" vertical-offset="75" max-vertical-offset="750">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+        <entry file="file://$PROJECT_DIR$/trip/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="900">
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state line="44" column="108" selection-start="1748" selection-end="1751" vertical-scroll-proportion="-8.038462" vertical-offset="211" max-vertical-offset="3390">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,10 +249,37 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trip/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="4" column="27" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_activity.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_activity.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="204" selection-end="204" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.52" vertical-offset="26" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="38" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -299,17 +305,22 @@
         <option value="$PROJECT_DIR$/trip/urls.py" />
         <option value="$PROJECT_DIR$/trip/static/trip/trip.css" />
         <option value="$PROJECT_DIR$/accounts/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/trip/views.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/grouptrip/settings.py" />
         <option value="$PROJECT_DIR$/grouptrip/urls.py" />
+        <option value="$PROJECT_DIR$/grouptrip/settings.py" />
+        <option value="$PROJECT_DIR$/trip/views.py" />
+        <option value="$PROJECT_DIR$/trip/templates/trip/create_trip.html" />
+        <option value="$PROJECT_DIR$/trip/models.py" />
+        <option value="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" />
+        <option value="$PROJECT_DIR$/trip/templates/trip/base.html" />
+        <option value="$PROJECT_DIR$/trip/static/trip/scripts.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-37" />
-    <option name="y" value="466" />
+    <option name="x" value="-3" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -593,7 +604,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-37" y="466" width="1400" height="813" extended-state="0" />
+    <frame x="-3" y="22" width="1400" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -627,78 +638,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grouptrip/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.62952244" vertical-offset="0" max-vertical-offset="691">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_static.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="430" selection-end="441" vertical-scroll-proportion="0.23878437" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="35" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.3227207" vertical-offset="437" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="33" selection-end="55" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="337" selection-end="344" vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2826087" vertical-offset="195" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_activity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.375" vertical-offset="105" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="39" selection-start="10483" selection-end="10483" vertical-scroll-proportion="0.0" vertical-offset="2713" max-vertical-offset="3390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -715,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="900">
@@ -731,16 +663,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
+    <entry file="file://$PROJECT_DIR$/grouptrip/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="0" selection-start="5118" selection-end="5118" vertical-scroll-proportion="-7.0384617" vertical-offset="2052" max-vertical-offset="2985">
+        <state line="20" column="0" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grouptrip/urls.py">
+    <entry file="file://$PROJECT_DIR$/trip/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.089955024" vertical-offset="0" max-vertical-offset="667">
+        <state line="9" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="38" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="108" selection-start="1748" selection-end="1751" vertical-scroll-proportion="-8.038462" vertical-offset="211" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="211" selection-end="211" vertical-scroll-proportion="-2.7" vertical-offset="0" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="79" selection-start="539" selection-end="539" vertical-scroll-proportion="-5.0" vertical-offset="75" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.4851794" vertical-offset="619" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_activity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="204" selection-end="204" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.52" vertical-offset="26" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_trip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="887" selection-end="887" vertical-scroll-proportion="-10.0" vertical-offset="45" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/static/trip/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="33" selection-start="8961" selection-end="8961" vertical-scroll-proportion="0.68330735" vertical-offset="3792" max-vertical-offset="11295">
           <folding />
         </state>
       </provider>
