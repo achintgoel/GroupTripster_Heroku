@@ -59,6 +59,7 @@ function onSaveTrip(){
 		function(response){
 			if(response.success == "True"){
 				$('#createTrip').modal('hide');
+				jQuery("#no_trips").remove();
 				jQuery("#myTrips").prepend(response.html).slideDown();
 				
 			}
@@ -72,6 +73,8 @@ function onSaveTrip(){
 //function that is called when start new trip button is pressed
 function onCreateNewActivity(){
 	document.getElementById("createActivityForm").reset();
+	jQuery("#id_activity_photo").empty();
+	jQuery("#activity_photo_collapse").collapse('hide');
 	$('#createActivity').modal();
 }
 
@@ -156,7 +159,7 @@ function initialize() {
 	  map.fitBounds(defaultBounds);
 	
 	  var input = /** @type {HTMLInputElement} */(document.getElementById('target'));
-	  var searchBox = new google.maps.places.SearchBox(input); 
+	  var searchBox = new google.maps.places.SearchBox(input);
 	  
 	  var options = {
 		  types: ['geocode']
@@ -383,7 +386,7 @@ function onSaveActivity(){
 				jQuery("#createActivity").modal('hide');
 				//TODO:add handling for case when activity is edited (change its content or move it to a different date)
 				if(response.edited == "False") {
-					jQuery(response.activities_div_id).prepend(response.html);
+					jQuery(response.activities_div_id).prepend(response.html).slideDown();
 					//Discussion setup
 					jQuery('.activity_summary_content').carousel({interval : false});
 					jQuery(".discussion_link").click(function (e) {
@@ -402,7 +405,7 @@ function onSaveActivity(){
 						onShowOnMap(name);
 					});
 					jQuery(response.no_activities_div_id).remove();
-					jQuery(response.activities_div_id).collapse('show');
+					//jQuery(response.activities_div_id).collapse('show');
 				}
 				
 			}

@@ -1,9 +1,12 @@
 <tr>
 	<td>
-		<a href="{{trip_info.get_absolute_url}}">
-			{{ trip_info.name }}
-		</a>
-		</td>
-		<td>{{ trip_info.start_date }}</td>
-		<td>{{ trip_info.end_date }}</td>
+        <strong>
+            <span class="glyphicon glyphicon-briefcase"></span>
+            <a href="{{trip_info.get_absolute_url}}">
+                {{ trip_info.name }}
+            </a>
+        </strong>
+    </td>
+    <td><span class="glyphicon glyphicon-map-marker"></span> {{ trip_info.destination }}</td>
+    <td><span class="glyphicon glyphicon-calendar"></span> {{ trip_info.start_date }} - {{trip_info.end_date}}</td>
 </tr>

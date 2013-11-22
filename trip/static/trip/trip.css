@@ -16,6 +16,13 @@ body {
 .trip-contents {
 	background-color:#FFFFFF;
 }
+.profile-contents {
+	background-color:#FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
 .trip-header {
 	position: relative;
 	margin-bottom: 30px;

@@ -1,8 +1,8 @@
 <tr>
-	<td>{{trip_invitation.trip.name}}</td>
-	<td>{{trip_invitation.trip.start_date}}</td>
-	<td>{{trip_invitation.trip.end_date}}</td>
-	<td>{{trip_invitation.sender.username}}</td>
+	<td><strong><span class="glyphicon glyphicon-briefcase"></span> {{trip_invitation.trip.name}}</strong></td>
+    <td><span class="glyphicon glyphicon-map-marker"></span> {{trip_invitation.trip.destination}}</td>
+	<td><span class="glyphicon glyphicon-calendar"></span> {{trip_invitation.trip.start_date}} - {{trip_invitation.trip.end_date}}</td>
+	<td><strong>Sent By: </strong>{{trip_invitation.sender.username}}</td>
 	<td><a id="acceptInvitation" class="btn btn-primary btn-small" href="{% url 'invite:accept_invite' trip_invitation.trip.slug %}">Accept Invite</a></td>
 </tr>
 

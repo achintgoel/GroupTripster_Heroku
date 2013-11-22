@@ -43,7 +43,7 @@ def save(request):
     if form.is_valid():
         user = request.user
     #trip = Trip(name=request.POST.get('name'), slug=slugify(request.POST.get('name')), created_by=user ,start_date=request.POST.get('start_date'), num_days=request.POST.get('num_days'))
-        trip = Trip(name=form.cleaned_data['name'], slug=slugify(form.cleaned_data['name']), created_by=user ,start_date=form.cleaned_data['start_date'], end_date=form.cleaned_data['end_date'])
+        trip = Trip(name=form.cleaned_data['name'], slug=slugify(form.cleaned_data['name']), created_by=user ,destination=form.cleaned_data['destination'],start_date=form.cleaned_data['start_date'], end_date=form.cleaned_data['end_date'])
         trip.save()
         
         trip_participant = TripParticipants(trip=trip, participant=user, role=TripParticipants.CREATOR)
