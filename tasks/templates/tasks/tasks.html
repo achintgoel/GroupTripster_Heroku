@@ -14,9 +14,7 @@
 						{% for task in tasks %}
 									{% include "tasks/task_summary.html" with task=task  task_num=forloop.counter%}
 						{% empty %}
-							<div id="no_tasks">
-								<tr><td><strong>No Tasks</strong></td></tr>
-							</div>
+							<tr id="no_tasks"><td><strong>No Tasks</strong></td></tr>
 						{% endfor %}
 					</table>
 				</div>

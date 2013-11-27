@@ -1,0 +1,51 @@
+{% load staticfiles %}
+{% load trip_extras %}
+
+<div class="col-lg-6">
+	<ul class="list-group">
+        {% for trip_invite in trip_invitations %}
+            {% with user_invited_social_pf=user_non_participants_social_pf|lookup:trip_invite.recipient %}
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="media">
+                              <a class="pull-left" href="#">
+                                <img class="media-object" src="https://graph.facebook.com/{{user_invited_social_pf.username}}/picture?width=40&height=40">
+                              </a>
+                              <div class="media-body">
+                                <h4>{{user_invited_social_pf.first_name}} {{user_invited_social_pf.last_name}}</h4>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-primary invite-btn" disabled="disabled">Invited</button>
+                        </div>
+                    </div>
+                </li>
+            {% endwith %}
+        {% endfor %}
+
+
+		{% for user_participant in user_non_participants_social_pf %}
+            {% with user_non_participant_social_pf=user_non_participants_social_pf|lookup:user_participant %}
+	  		<li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="media">
+                          <a class="pull-left" href="#">
+                            <img class="media-object" src="https://graph.facebook.com/{{user_non_participant_social_pf.username}}/picture?width=40&height=40">
+                          </a>
+                          <div class="media-body">
+                            <h4>{{user_non_participant_social_pf.first_name}} {{user_non_participant_social_pf.last_name}}</h4>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-primary invite-btn" data-user-social-id="{{user_non_participant_social_pf.id}}">Invite</button>
+                    </div>
+                </div>
+	  		</li>
+            {% endwith %}
+	  	{% endfor %}
+	</ul>
+</div>

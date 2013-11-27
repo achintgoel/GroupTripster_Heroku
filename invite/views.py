@@ -18,13 +18,13 @@ import datetime
 
 @login_required
 def send_invite(request):
-    user_pk = request.POST.get('user_pk')
+    user_social_id = request.POST.get('user_social_id')
+    user_social_auth = UserSocialAuth.objects.get(uid=user_social_id)
     slug = request.POST.get('slug')
     #TODO:verify that the user_pk is in the friends list for this user
     trip = get_object_or_404(Trip, slug=slug, created_by=request.user)
-    recipient = User.objects.get(pk=user_pk)
     #TODO:verify that this user hasnt already been sent an invite
-    invitation = TripInvitations(trip=trip, sender=request.user, recipient=recipient)
+    invitation = TripInvitations(trip=trip, sender=request.user, recipient=user_social_auth.user)
     invitation.save();
     
     response = simplejson.dumps({'success':'True'})

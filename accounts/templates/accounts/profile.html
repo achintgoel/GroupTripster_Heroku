@@ -11,14 +11,11 @@
                 {% for participating_trip in participating_trips %}
                     {% include "trip/trip_summary.html" with trip_info=participating_trip.trip %}
                 {% empty %}
-                    <div id="no_trips">
-                        <tr>
+                        <tr id="no_trips">
                             <td>
                                 <strong>You don't have any trips!</strong>
                             </td>
                         </tr>
-
-					</div>
                 {% endfor %}
                 </tbody>
             </table>

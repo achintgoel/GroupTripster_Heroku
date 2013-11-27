@@ -12,6 +12,7 @@ from django.template.defaultfilters import date
 from trip.forms import CreateTripForm, CreateActivityForm
 from trip.models import Trip, TripParticipants, ActivityItinerary, ActivityComment, ActivityReview
 from tasks.models import Task
+from invite.models import TripInvitations
 from social_auth.db.django_models import UserSocialAuth
 import facebook
 import datetime
@@ -193,6 +194,7 @@ def save_review(request):
     return HttpResponse(response, 
                         content_type='application/javascript; charset=utf-8')
 
+@login_required
 def trip_profile(request, slug):
     #TODO:either the trip is created by the user, or user is part of it
     trip = get_object_or_404(Trip, slug=slug)
@@ -211,7 +213,6 @@ def trip_profile(request, slug):
     activity_category_icons = ActivityItinerary.ACTIVITY_CATEGORY_ICONS
     
     tasks = Task.objects.filter(trip=trip)
-    
     instance = UserSocialAuth.objects.filter(provider='facebook').get(user=request.user)
     graph = facebook.GraphAPI(instance.tokens['access_token'])
     user_profile = graph.get_object("me", fields="id, name, first_name, last_name, picture, username")
@@ -231,6 +232,8 @@ def trip_profile(request, slug):
             friends_non_users.append(friend)
     
     
-    
+    trip_invitations = trip.trip_invitations.filter(status=TripInvitations.INVITED)
+
+
     user_list = User.objects.exclude(pk__in=list(trip_participants_values))
     return render_to_response('trip/trip_profile.html', locals(), context_instance=RequestContext(request))

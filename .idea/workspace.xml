@@ -163,13 +163,15 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/tests.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/urls.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grouptrip/trip/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/base.html" afterPath="$PROJECT_DIR$/trip/templates/trip/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/static/trip/scripts.js" afterPath="$PROJECT_DIR$/trip/static/trip/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grouptrip/settings.py" afterPath="$PROJECT_DIR$/grouptrip/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/static/trip/trip.css" afterPath="$PROJECT_DIR$/trip/static/trip/trip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invite/templates/invite/trip_invitation_summary.html" afterPath="$PROJECT_DIR$/invite/templates/invite/trip_invitation_summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/trip_summary.html" afterPath="$PROJECT_DIR$/trip/templates/trip/trip_summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/templates/tasks/tasks.html" afterPath="$PROJECT_DIR$/tasks/templates/tasks/tasks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" afterPath="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invite/views.py" afterPath="$PROJECT_DIR$/invite/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trip/views.py" afterPath="$PROJECT_DIR$/trip/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroupTripster_Final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,10 +194,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create_trip.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_trip.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="887" selection-end="887" vertical-scroll-proportion="-10.0" vertical-offset="45" max-vertical-offset="870">
+            <state line="7" column="55" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="3021" max-vertical-offset="3675">
               <folding />
             </state>
           </provider>
@@ -204,80 +206,84 @@
       <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-13.75" vertical-offset="60" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trip_invitation_summary.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invite/templates/invite/trip_invitation_summary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finder_activities_form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finder/templates/finder/finder_activities_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activities.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/templates/trip/activities.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="83" selection-start="696" selection-end="696" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="49" selection-start="2874" selection-end="2874" vertical-scroll-proportion="-24.192308" vertical-offset="136" max-vertical-offset="3390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trip_summary.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_summary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="63" selection-start="40" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="255">
+            <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/models.py">
+        <entry file="file://$PROJECT_DIR$/invite/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="38" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+            <state line="16" column="13" selection-start="533" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trip_profile.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="26" selection-start="3765" selection-end="3765" vertical-scroll-proportion="0.67715234" vertical-offset="836" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itinerary.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/templates/trip/itinerary.html">
+      <file leaf-file-name="invite.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invite/templates/invite/invite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="6" column="35" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trip.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="401" selection-end="401" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="1365">
+            <state line="30" column="31" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-3.68" vertical-offset="266" max-vertical-offset="870">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invite2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invite/templates/invite/invite2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="41" selection-start="996" selection-end="996" vertical-scroll-proportion="-4.8" vertical-offset="45" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trip/static/trip/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="53" selection-start="2096" selection-end="2096" vertical-scroll-proportion="-14.538462" vertical-offset="702" max-vertical-offset="11745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/templates/tasks/tasks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="28" selection-start="746" selection-end="746" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invite/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="96" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="810">
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -300,28 +306,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/trip/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/grouptrip/urls.py" />
         <option value="$PROJECT_DIR$/grouptrip/settings.py" />
         <option value="$PROJECT_DIR$/trip/templates/trip/create_trip.html" />
         <option value="$PROJECT_DIR$/trip/models.py" />
-        <option value="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" />
-        <option value="$PROJECT_DIR$/trip/templates/trip/base.html" />
-        <option value="$PROJECT_DIR$/trip/views.py" />
-        <option value="$PROJECT_DIR$/trip/static/trip/scripts.js" />
         <option value="$PROJECT_DIR$/trip/templates/trip/trip_summary.html" />
         <option value="$PROJECT_DIR$/invite/templates/invite/trip_invitation_summary.html" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
         <option value="$PROJECT_DIR$/trip/static/trip/trip.css" />
+        <option value="$PROJECT_DIR$/invite/views.py" />
+        <option value="$PROJECT_DIR$/trip/templates/trip/base.html" />
+        <option value="$PROJECT_DIR$/invite/templates/invite/invite2.html" />
+        <option value="$PROJECT_DIR$/trip/static/trip/scripts.js" />
+        <option value="$PROJECT_DIR$/tasks/templates/tasks/tasks.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
+        <option value="$PROJECT_DIR$/trip/views.py" />
+        <option value="$PROJECT_DIR$/trip/templates/trip/trip_profile.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="191" />
+    <option name="x" value="83" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -379,6 +385,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="invite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupTripster_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grouptrip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -414,28 +456,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupTripster_Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupTripster_Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -446,8 +466,8 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -605,7 +625,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="191" width="1400" height="813" extended-state="0" />
+    <frame x="83" y="22" width="1400" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -639,78 +659,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trip/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="539" selection-end="539" vertical-scroll-proportion="-5.0" vertical-offset="75" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_activity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="50" selection-start="2247" selection-end="2252" vertical-scroll-proportion="-5.82" vertical-offset="534" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="72" selection-start="3098" selection-end="3099" vertical-scroll-proportion="-4.44" vertical-offset="783" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/itinerary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="49" selection-start="2874" selection-end="2874" vertical-scroll-proportion="-24.192308" vertical-offset="136" max-vertical-offset="3390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grouptrip/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.24737631" vertical-offset="0" max-vertical-offset="2985">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/create_trip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="887" selection-end="887" vertical-scroll-proportion="-10.0" vertical-offset="45" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/static/trip/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-0.95475817" vertical-offset="1527" max-vertical-offset="11340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trip/templates/trip/activities.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="83" selection-start="696" selection-end="696" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trip/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="38" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
@@ -720,14 +668,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="63" selection-start="40" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="255">
+        <state line="3" column="63" selection-start="40" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invite/templates/invite/trip_invitation_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="8" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
@@ -739,16 +687,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+    <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-13.75" vertical-offset="60" max-vertical-offset="795">
+        <state line="10" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trip/static/trip/trip.css">
+    <entry file="file://$PROJECT_DIR$/invite/static/invite/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="401" selection-end="401" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="1365">
+        <state line="7" column="27" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invite/templates/invite/invite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-3.68" vertical-offset="266" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="533" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invite/templates/invite/invite2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="41" selection-start="996" selection-end="996" vertical-scroll-proportion="-4.8" vertical-offset="45" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/static/trip/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="53" selection-start="2096" selection-end="2096" vertical-scroll-proportion="-14.538462" vertical-offset="702" max-vertical-offset="11745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/templates/tasks/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="746" selection-end="746" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="55" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="3021" max-vertical-offset="3675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="96" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="810">
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trip/templates/trip/trip_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="26" selection-start="3765" selection-end="3765" vertical-scroll-proportion="0.67715234" vertical-offset="836" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>

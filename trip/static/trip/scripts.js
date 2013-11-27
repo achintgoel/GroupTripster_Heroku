@@ -486,7 +486,7 @@ function onSaveTask() {
 			if(response.success == "True"){
 				//TODO:maintain order within that div
 				document.getElementById("task_form").reset();
-				jQuery("#no_tasks").empty();
+				jQuery("#no_tasks").remove();
 				jQuery("#tasks_table").prepend(response.html).slideDown();
 				jQuery(".complete_task").change(function () {
 					if($(this).is(':checked')) {
@@ -564,6 +564,24 @@ function onSaveReview(activity_id) {
 			}
 		}, "json");
 }
+
+//function that is called when save is pressed on the modal
+function onInvite(user_social_id){
+	// build an object of review data to submit
+	var invitation = {
+		user_social_id: user_social_id,
+		slug: jQuery("#id_slug").val() };
+	// make request, process response
+	jQuery.post("/invite/send_invite/", invitation,
+		function(response){
+			if(response.success == "True"){
+
+			}
+			else{
+			}
+		}, "json");
+}
+
 
 $(window).resize(function () {
     var h = $(window).height(),
@@ -741,7 +759,16 @@ function prepareDocument() {
 		var activity_id = $(this).data( "activity-id" );
 		onSaveReview(activity_id);
 	});
-	  
+
+
+	//INVITE SETUP
+	jQuery(".invite-btn").click(function (e) {
+		e.preventDefault();
+		$(this).attr("disabled", "disabled");
+		$(this).html("Invited");
+		var user_social_id = $(this).data( "user-social-id" );
+		onInvite(user_social_id);
+	});
     
 	initialize();
 	loadActivityData();

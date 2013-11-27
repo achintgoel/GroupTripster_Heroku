@@ -13,6 +13,7 @@
 		<img src="{% static "trip/DowntownSF.jpg" %}">
 		<div class="trip-details">
 			<h1><strong>{{trip.name}}</strong></h1>
+            <h3>{{trip.destination}}</h3>
 			<h3>{{trip.start_date}}-{{trip.end_date}}</h3>
 		</div>
 		<div class="trip-participants">
@@ -38,13 +39,13 @@
 			  <label class="btn btn-primary nav-options" data-target="#tasks">
 			    <input type="radio"><strong><span class="glyphicon glyphicon-tasks"></span>  Tasks</strong>
 			  </label>
-			  <label class="btn btn-primary nav-options" data-target="#">
+			  <label class="btn btn-primary nav-options" data-target="#surveys">
 			    <input type="radio"><strong><span class="glyphicon glyphicon-pencil"></span>  Surveys</strong>
 			  </label>
-			  <label class="btn btn-primary nav-options" data-target="#">
+			  <label class="btn btn-primary nav-options" data-target="#costs">
 			    <input type="radio"><strong><span class="glyphicon glyphicon-usd"></span>  Costs</strong>
 			  </label>
-			  <label class="btn btn-primary nav-options" data-target="#">
+			  <label class="btn btn-primary nav-options" data-target="#photo_album">
 			    <input type="radio"><strong><span class="glyphicon glyphicon-picture"></span>  Photo Album</strong>
 			  </label>
 			  <label class="btn btn-primary nav-options" data-target="#invite">
@@ -67,9 +68,24 @@
 			  	<div class="tab-pane" id="tasks">
 			  			{% include "tasks/tasks.html" with tasks=tasks trip_participants=trip_participants%}
 			  	</div>
+                <div class="tab-pane" id="surveys">
+                    <div class="col-lg-6">
+                        <h3>Coming Soon!</h3>
+                    </div>
+                </div>
+                <div class="tab-pane" id="costs">
+                    <div class="col-lg-6">
+                        <h3>Coming Soon!</h3>
+                    </div>
+                </div>
+                <div class="tab-pane" id="photo_album">
+                    <div class="col-lg-6">
+                        <h3>Coming Soon!</h3>
+                    </div>
+                </div>
 			  	<!--Content of Invite Tab-->
 			  	<div class="tab-pane" id="invite">
-			  			{% include "invite/invite.html" with user_list=user_list trip_participants=trip_participants%}
+			  			{% include "invite/invite2.html" with user_non_participants_social_pf=user_non_participants_social_pf trip_invitations=trip_invitations%}
 			  	</div>
 			</div>
 			<div class="col-lg-6">
